@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>381</string>
+	<key>AMApplicationVersion</key>
+	<string>2.4</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Voer AppleScript uit</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		set input to input as string		-- Scholarly but ė instead of è	set input to replace_chars(input, "а", "a")	set input to replace_chars(input, "б", "b")	set input to replace_chars(input, "в", "v")	set input to replace_chars(input, "г", "g")	set input to replace_chars(input, "д", "d")	set input to replace_chars(input, "е", "e")	set input to replace_chars(input, "ё", "ë")	set input to replace_chars(input, "ж", "ž")	set input to replace_chars(input, "з", "z")	set input to replace_chars(input, "и", "i")	set input to replace_chars(input, "й", "j")	set input to replace_chars(input, "к", "k")	set input to replace_chars(input, "л", "l")	set input to replace_chars(input, "м", "m")	set input to replace_chars(input, "н", "n")	set input to replace_chars(input, "о", "o")	set input to replace_chars(input, "п", "p")	set input to replace_chars(input, "р", "r")	set input to replace_chars(input, "с", "s")	set input to replace_chars(input, "т", "t")	set input to replace_chars(input, "у", "u")	set input to replace_chars(input, "ф", "f")	set input to replace_chars(input, "х", "x")	set input to replace_chars(input, "ц", "c")	set input to replace_chars(input, "ч", "č")	set input to replace_chars(input, "ш", "š")	set input to replace_chars(input, "щ", "šč")	set input to replace_chars(input, "ъ", "ʺ")	set input to replace_chars(input, "ы", "y")	set input to replace_chars(input, "ь", "ʹ")	set input to replace_chars(input, "э", "ė")	set input to replace_chars(input, "ю", "ju")	set input to replace_chars(input, "я", "ja")		set input to replace_chars(input, "А", "A")	set input to replace_chars(input, "Б", "B")	set input to replace_chars(input, "В", "V")	set input to replace_chars(input, "Г", "G")	set input to replace_chars(input, "Д", "D")	set input to replace_chars(input, "Е", "E")	set input to replace_chars(input, "Ё", "Ë")	set input to replace_chars(input, "Ж", "Ž")	set input to replace_chars(input, "З", "Z")	set input to replace_chars(input, "И", "I")	set input to replace_chars(input, "Й", "J")	set input to replace_chars(input, "К", "K")	set input to replace_chars(input, "Л", "L")	set input to replace_chars(input, "М", "M")	set input to replace_chars(input, "Н", "N")	set input to replace_chars(input, "О", "O")	set input to replace_chars(input, "П", "P")	set input to replace_chars(input, "Р", "R")	set input to replace_chars(input, "С", "S")	set input to replace_chars(input, "Т", "T")	set input to replace_chars(input, "У", "U")	set input to replace_chars(input, "Ф", "F")	set input to replace_chars(input, "Х", "X")	set input to replace_chars(input, "Ц", "C")	set input to replace_chars(input, "Ч", "Č")	set input to replace_chars(input, "Ш", "Š")	set input to replace_chars(input, "Щ", "Šč")	set input to replace_chars(input, "Ъ", "ʺ")	set input to replace_chars(input, "Ы", "Y")	set input to replace_chars(input, "Ь", "ʹ")	set input to replace_chars(input, "Э", "Ė")	set input to replace_chars(input, "Ю", "Ju")	set input to replace_chars(input, "Я", "Ja")		-- Obsolete and pre-18th century letters		set input to replace_chars(input, "і", "i")	set input to replace_chars(input, "ѳ", "f")	set input to replace_chars(input, "ѣ", "ě")	set input to replace_chars(input, "ѵ", "i")	set input to replace_chars(input, "ѕ", "dz")	set input to replace_chars(input, "ѯ", "ks")	set input to replace_chars(input, "ѱ", "ps")	set input to replace_chars(input, "ѡ", "ô")	set input to replace_chars(input, "ѫ", "ǫ")	set input to replace_chars(input, "ѧ", "ę")	set input to replace_chars(input, "ѭ", "jǫ")	set input to replace_chars(input, "ѩ", "ję")		set input to replace_chars(input, "І", "I")	set input to replace_chars(input, "Ѳ", "F")	set input to replace_chars(input, "Ѣ", "Ě")	set input to replace_chars(input, "Ѵ", "I")	set input to replace_chars(input, "Ѕ", "Dz")	set input to replace_chars(input, "Ѯ", "Ks")	set input to replace_chars(input, "Ѱ", "Ps")	set input to replace_chars(input, "Ѡ", "Ô")	set input to replace_chars(input, "Ѫ", "Ǫ")	set input to replace_chars(input, "Ѧ", "Ę")	set input to replace_chars(input, "Ѭ", "Jǫ")	set input to replace_chars(input, "Ѩ", "Ję")			return input	end runon replace_chars(this_text, search_string, replacement_string)	considering case		set AppleScript's text item delimiters to the search_string		set the item_list to every text item of this_text		set AppleScript's text item delimiters to the replacement_string		set this_text to the item_list as string		set AppleScript's text item delimiters to ""		return this_text	end consideringend replace_chars</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>48066366-850D-4AC6-8C92-9808D26C7457</string>
+				<key>Keywords</key>
+				<array>
+					<string>Uitvoeren</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>EBF139AF-F587-4524-95CA-720170D6328B</string>
+				<key>UUID</key>
+				<string>10108DD9-03A8-4D2B-A7F0-006F42575566</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>383.500000:670.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Dutch.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict/>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>serviceApplicationBundleID</key>
+		<string></string>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.text</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.text</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.servicesMenu</string>
+	</dict>
+</dict>
+</plist>
