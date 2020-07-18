@@ -5,7 +5,9 @@ A macOS Service to convert Cyrillic to Latin characters in selected text.
 
 ## Installation
 
-Double-click to install (or open in Automator). If that doesn't work, simply copy the Service into `~/Library/Services`.
+Double-click to install (or open in [Automator](https://support.apple.com/guide/automator/welcome/mac)). 
+
+If that doesn't work, copy the Service into `~/Library/Services`.
 
 ## How to use
 
