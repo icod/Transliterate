@@ -1,6 +1,6 @@
 # Transliterate
 
-A Mac OS X Service to convert Cyrillic to Latin characters in selected text.
+A macOS Service to convert Cyrillic to Latin characters in selected text.
 
 
 ## How to install
