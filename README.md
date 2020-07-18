@@ -3,9 +3,23 @@
 A macOS Service to convert Cyrillic to Latin characters in selected text.
 
 
-## How to install
+## Installation
 
 Double-click to install (or open in Automator). If that doesn't work, simply copy the Service into `~/Library/Services`.
+
+## How to use
+
+Select the Cyrillic text, right-click and find this service under the **Services** menu item. 
+
+### Example
+
+The selected sentence…
+
+> В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!
+
+… will be replaced by:
+
+> V čaščax juga žil by citrus? Da, no falʹšivyj ėkzempljar!
 
 ## Transliteration table
 
